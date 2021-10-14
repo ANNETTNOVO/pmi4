@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding: 0;
+font-size: 20px;
+}
+.clearboth{
+    clear: both;
+}
+div{
+box-sizing: border-box;
+}
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section .body_element{
+    width: 1200px;
+    margin:0;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        width: 800px;
+        background-color:rosybrown;
+    }
+}
+
+.section.menu{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: navajowhite;
+}
+.menu .list_menu li {
+    display: inline-block;
+    margin: 10px;
+}
+.menu .list_menu li a{
+    color: black;
+    font-size: 20px;
+    font-family: Broadway;
+    text-decoration: none;
+}
+.menu{
+    text-align: center;
+    position: fixed;
+    top:0px;
+    width: 100%;
+}
+.main{
+    background-image: url("photo/tpo_zfb_2012-71_1.jpg");
+background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 113px;
+    width: 100%;
+}
+.main .logo{
+    text-align: center;
+}
+.main .logo img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+.main .slogan p{
+    font-size: 40px;
+    font-family: Broadway;
+    color: navajowhite;
+    text-align: center;
+}
+.main .slogan p1{
+    font-size: 20px;
+    font-family: Broadway;
+    color: navajowhite;
+    text-align: center;
+}
+.main .slogan{
+    text-align: center;
+}
+.p_header{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-family: Broadway;
+    position: center;
+}
+.about .tizer_about .t_about{
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    padding: 20px 20px;
+}
+.about .tizer_about .t_about .t_about_head{
+    font-size: 40px;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+.about  .tra_about{
+    float: left;
+    width: 500px;
+    text-align: center;
+    background-color: navajowhite;
+    margin:0px 20px;
+}
+.about  .traphoto1{
+    background-image: url("photo/tpo_zfb_2012-28_1.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+height: 400px;
+
+}
+.tra_about_head{
+font-size: 40px;
+margin-top: 50px;
+margin-bottom: 55px;
+
+}
+.tra_about_text{
+margin-bottom: 50px;
+line-height: 24px;
+padding: 0px 30px 30px 30px;
+}
+
+.about  .tra_about_two{
+float: left;
+width: 500px;
+text-align: center;
+background-color: navajowhite;
+margin:0px 20px;
+margin-top: 40px;
+}
+.about  .traphoto2{
+background-image: url("photo/tpo_zfb_2012-258_1.jpg") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 400px;
+}
+.tra_about_head2{
+font-size: 40px;
+margin-top: 50px;
+margin-bottom: 55px;
+
+}
+.tra_about_text2 {
+margin-bottom: 75px;
+line-height: 24px;
+padding: 0px 30px 30px 30px;
+}
+.product .product_element{
+width: 25%;
+float: left;
+padding: 25px;
+}
+.product .product_element img {
+max-width: 100%;
+}
+.product_element .name{
+font-size: 25px;
+font-weight: bold;
+}
+.product_element .price{
+font-size: 25px;
+font-weight: bold;
+text-align: right;
+}
+.video .body_element{
+text-align: center;
+}
+.video .body_element video{
+position: center;
+}
+
+.photo .photo_element{
+float: left;
+width: 25%;
+padding: 20px;
+position: center;
+}
+.photo .photo_element img{
+width: 100%;
+}
+.section.contact .map, .section.contact .form{
+float: left;
+width: 50%;
+padding: 10px;
+}
+.section.contact{
+position: center;
+}
+.section.contact .body_element .form{
+background-color: navajowhite;
+font-size: 30px;
+padding-left: 30px;
+text-align: center;
+}
+.footer {
+background-color: black;
+color: navajowhite;
+text-align: center;
+    height: 200px;
+    width: 100%;
+
+}
+.form p{
+font-size: 20px;
+font-family: Broadway;
+color: black;
+text-align: center;
+}
+.form button{
+background-color: darkblue;
+color: navajowhite;
+width: 210px;
+font-family: Broadway;
+height: 50px ;
+position: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.product_element .img{
+position: center;
+}
+.form input{
+padding: 20px;
+position: center;
+margin-top: 20px;
+}
+.colms .address,
+.colms .contact,
+.colms .social_net{
+float:left;
+width: 33.3333%;
+padding: 30px;
+}
+
+
+
+
